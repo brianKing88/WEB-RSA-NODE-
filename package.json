@@ -1,0 +1,11 @@
+{
+  "name": "jsencrypt",
+  "version": "",
+  "dependencies": {
+    "koa": "^2.4.1",
+    "koa-bodyparser": "^4.2.0",
+    "koa-router": "^7.3.0",
+    "koa-static": "^4.0.2",
+    "node-rsa": "^0.4.2"
+  }
+}

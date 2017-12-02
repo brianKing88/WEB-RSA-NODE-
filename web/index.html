@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <style>
+    html,
+    body {
+      padding: 0;
+      margin: 0;
+      height: 100%;
+      width: 100%;
+    }
+
+    .all {
+      text-align: center;
+      margin: 50px auto;
+      display: block;
+    }
+  </style>
+  <script src="http://code.jquery.com/jquery-1.8.0.min.js"></script>
+  <!-- <script src="./node_modules/node-rsa/src/NodeRSA.js"></script> -->
+  <script src="./web/node_modules/jsencrypt/bin/jsencrypt.min.js"></script>
+  <script src="./web/index.js"></script>
+  <title>Document</title>
+
+</head>
+
+<body>
+  <div class="all">
+    <textarea id="input" placeholder="请输入要加密的内容" name="" cols="30" rows="10"></textarea>
+    <button style="display:block; margin: 0 auto;" id="btn">发送</button>
+    <textarea name="" id="output" placeholder="解密后的加密的内容" cols="30" rows="10"></textarea>
+  </div>
+</body>
+
+</html>

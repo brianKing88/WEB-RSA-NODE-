@@ -1,0 +1,6 @@
+{
+  "dependencies": {
+    "jsencrypt": "^2.3.1",
+    "node-rsa": "^0.4.2"
+  }
+}
